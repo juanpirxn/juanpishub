@@ -1,0 +1,5 @@
+.container {border: 1px double red;}
+.container h1 {text-transform: uppercase;}
+main > h1 {color: red;}
+h1 {text-transform: capitalize;}
+
