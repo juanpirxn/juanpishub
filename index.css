@@ -1,5 +1,38 @@
-.container {border: 1px double red;}
-.container h1 {text-transform: uppercase;}
-main > h1 {color: red;}
-h1 {text-transform: capitalize;}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
+  background: rgb(255, 0, 106);
+}
+.container div:nth-child(1) {
+  background-color: black;
+
+  color: white;
+  width: 1000px;
+}
+.container div:nth-child(2) {
+  background-color: yellow;
+  color: white;
+  height: fit-content;
+  width: 1000px;
+}
+.container div:nth-child(3) {
+  background-color: pink;
+  color: white;
+  height: fit-content;
+  width: 1000px;
+}
+.container div:nth-child(4) {
+  background-color: blue;
+  color: white;
+  height: fit-content;
+  width: 1000px;
+}
